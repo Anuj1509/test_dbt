@@ -3,8 +3,8 @@ version: 2
 sources:
   - name: curated
     database: TEST_DB
-    schema: RAW_DATA
-
+    schema: TEST_SCHEMA
+    
     tables:
       - name: sales
         description: Sales transaction table
